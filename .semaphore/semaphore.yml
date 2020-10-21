@@ -36,3 +36,6 @@ blocks:
         - name: Rubocop
           commands:
             - bundle exec rubocop
+      env_vars:
+        - name: RAILS_ENV
+          value: test
