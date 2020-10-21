@@ -1,24 +1,5 @@
-# README
+## Reflex Delivery
+[![Build Status](https://edwinthinks.semaphoreci.com/badges/reflex_delivery/branches/master.svg?style=shields)](https://edwinthinks.semaphoreci.com/projects/reflex_delivery)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A "reactive" Ruby On Rails project using [StimulusJS](https://stimulusjs.org/) & [StimulusReflex](https://docs.stimulusreflex.com/). This experimental project that emulates a delivery logistics platform. Envision a dashboard that can let you see in progress delivery orders and its progress as a delivery person completes it.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
