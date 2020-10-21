@@ -5,7 +5,7 @@ agent:
     type: e1-standard-2
     os_image: ubuntu1804
 blocks:
-  - name: Test
+  - name: Build
     task:
       env_vars:
         - name: DATABASE_URL
@@ -23,7 +23,7 @@ blocks:
             - cache store
             - 'bundle exec rake db:setup'
             - bundle exec rails test
-  - name: 'Block #2'
+  - name: Tests
     task:
       prologue:
         commands:
